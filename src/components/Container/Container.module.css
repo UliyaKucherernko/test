@@ -1,0 +1,13 @@
+.container {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 40px;
+  background-color: var(--bgColorContainer);
+  border-radius: 10px;
+  box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.8),
+    inset rgba(0, 0, 0, 0.3) -5px -5px 8px 5px,
+    inset rgba(255, 255, 255, 0.5) 2px 2px 5px 2px,
+    1px 1px 1px rgba(255, 255, 255, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.5);
+}
